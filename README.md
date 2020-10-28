@@ -14,16 +14,19 @@
 
 * On-board sockets for Polulu \(A4998 and DRV8825\) or Trinamic \(TMC2130, SPI mode\) style motor driver modules.
 
-* Opto-coupled limit and signal inputs (X, Y, Z, A, Probe, Reset/E-Stop, Door, Feed Hold and Cycle Start) with 5V drive voltage.
+* Opto-coupled limit and signal inputs (X, Y, Z, A, Probe, Reset/E-Stop, Door, Feed Hold and Cycle Start).
 
-* Opto-coupled signal outputs \(Spindle on, Spindle direction, Flood, Mist, Aux0 and Aux1\) with jumper selectable drive voltage \(5V internal or externally supplied\).
-Outputs are open drain \(ULN2003\) capable of draining 500mA, enough to drive most relays directly. Outputs can be made opto-isolated via jumper settings.
+* Opto-coupled signal outputs \(Spindle on, Spindle direction, Flood, Mist, Aux0 and Aux1\).
+Outputs are open drain \(ULN2003\) capable of draining 500mA, enough to drive most relays directly.
 
-* 3.3V PWM output for spindle speed control, unbuffered. Can be made buffered with choice of drive voltage.
+* Jumper selectable drive voltage for inputs and outputs, either 5V internally supplied or 5-30V externally supplied. 
+If externally supplied inputs and outputs can be made galvanically isolated from the controller via jumper settings.
 
-* Optional optocoupled DC spindle output, can be made opto-isolated via jumper setting. External supply voltage.
+* 5V buffered PWM output for spindle speed control.
 
-* I2C port with jumper selectable drive voltage \(3.3V or 5V\). This is complemented with a 5V tolerant input pin that may be used as an interrupt source, eg. for a I2C-based keypad.
+* Optional optocoupled DC spindle output, can be made galvanically isolated via jumper setting. External supply voltage limited to rating of filtering capacitor (max. 30V).
+
+* I2C port with jumper selectable drive voltage \(3.3V or 5V\). This is complemented with a 5V tolerant input pin that may be used as an interrupt source, eg. for the strobe signal from a I2C-based keypad.
 
 * Two GPIO ports, with two pins each. One is unbuffered and can be used for serial communincation, eg. for MPG or VFD control. One is input only and has 5V tolerant pins.
 
@@ -37,4 +40,4 @@ Outputs are open drain \(ULN2003\) capable of draining 500mA, enough to drive mo
 
 ---
 
-2020-10-27
+2020-10-28
