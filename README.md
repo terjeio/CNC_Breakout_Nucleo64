@@ -42,7 +42,7 @@ I have a number of _bare_ boards available:
 
 * 1.0 \(preliminary version\): 7 pcs. These do not support Trinamic drivers in SPI/UART mode and has a couple of correctable routing errors in the spindle PWM -> spindle DC circuit. Price: shipping at cost.
 
-* 1.0b: 2 pcs. Price: EUR 5 + shipping at cost. These are missing a pullup resistor for the keypad strobe input - this _may_ affect operation of the keypad plugin. Easy to add externally.
+* 1.0b: 2 pcs. Price: EUR 5/pcs + shipping at cost. These are missing a pullup resistor for the keypad strobe input - this _may_ affect operation of the keypad plugin. Easy to add externally.
 
 These boards are gold plated \(ENIG finish\).
 
