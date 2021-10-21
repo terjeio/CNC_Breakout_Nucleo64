@@ -2,7 +2,7 @@
 
 [grblHAL driver](https://github.com/grblHAL/STM32F4xx) support for [Nucleo F411RE](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) and [Nucleo F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) development boards.
 
-**NOTE:** design files are in [KiCad 5](http://www.kicad-pcb.org/) format!
+**NOTE:** design files are in [KiCad 5](http://www.kicad.org/) format!
 
 **Features:**
 
@@ -49,7 +49,7 @@ These boards are gold plated \(ENIG finish\).
 * 1.0c: \(current version\) Not yet available.
 
 I do not plan to offer populated boards as either I have to solder them myself \(will be expensive\) or place an order for ready made boards \(with only SMD components soldered\).  
-A redesign is likely required for ready made boards as some of the components may not available from the standard selection offered by e.g. [JLPCB](https://jlcpcb.com/).
+A redesign is likely required for ready made boards as some of the components may not be available from the standard selection offered by e.g. [JLPCB](https://jlcpcb.com/).
 
 It would be great if someone would get populated boards made and offered for sale as I am currently not prepared to do that.
 
